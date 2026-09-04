@@ -1,12 +1,34 @@
-# React + Vite
+# QuickBite — Modern Food Delivery Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-fledged, responsive, and interactive **Food Delivery Application** built using **React.js**. This application allows users to explore a dynamic food menu, filter items by category, manage their cart in real-time, and proceed through a seamless order checkout flow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+-  **Dynamic Food Listings:** Real-time search and category-based filtering (Burgers, Pizza, Desserts, Drinks, etc.).
+-  **Interactive Shopping Cart:** Real-time state management to add, update quantity, or remove items.
+-  **Order Management:** Seamless checkout flow with cost calculation including delivery fees and taxes.
+- **Fully Responsive:** Optimized for mobile, tablet, and desktop screens.
+-  **Production Deployed:** Hosted with automated CI/CD deployment on **Netlify**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **Frontend:** React.js (Functional Components, Hooks)
+- **Styling:** CSS3 / Tailwind CSS / Lucide Icons
+- **State Management:** React Context API / `useState` & `useReducer`
+- **Deployment:** Netlify
+
+---
+
+<ElicitationsGroup message="Branch workflow se related aage kya karna chahenge?">
+  <Elicitation label="Is README ko feature branch par commit aur merge karne ki Git commands dekhein" query="Is README file ko new feature branch par commit karke main branch mein merge karne ki exact Git commands batao."/>
+  <Elicitation label="Netlify par React project ko automatic CI/CD ke sath deploy karne ka tarika seekhein" query="GitHub repository ko Netlify par automatic deployment ke liye kaise connect karte hain?"/>
+</ElicitationsGroup>
+
+## Author
+
+Muhammad Sheraz | Software Engineer
+
